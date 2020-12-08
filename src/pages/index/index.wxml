@@ -1,0 +1,101 @@
+<swiper indicator-dots="true" autoplay="true" circular="true">
+  <swiper-item><image src="../../assets/images/head.png" /></swiper-item>
+  <swiper-item><image src="../../assets/images/head.png" /></swiper-item>
+  <swiper-item><image src="../../assets/images/head.png" /></swiper-item>
+  <swiper-item><image src="../../assets/images/head.png" /></swiper-item>
+  <swiper-item><image src="../../assets/images/head.png" /></swiper-item>
+</swiper>
+
+<view class="buttons">
+  <view>
+    <button class="cu-btn bg-gradual-blue icon lg shadow">
+      <text class="cuIcon-hotfill lg"></text>
+    </button>
+    <text class="title">热门好物</text>
+  </view>
+  <view>
+    <button class="cu-btn bg-gradual-blue icon lg shadow">
+      <text class="cuIcon-taxi lg"></text>
+    </button>
+    <text class="title">快捷打车</text>
+  </view>
+  <view>
+    <button class="cu-btn bg-gradual-blue icon lg shadow">
+      <text class="cuIcon-shopfill lg"></text>
+    </button>
+    <text class="title">附近餐饮</text>
+  </view>
+  <view>
+    <button class="cu-btn bg-gradual-blue icon lg shadow">
+      <text class="cuIcon-scan lg"></text>
+    </button>
+    <text class="title">快捷扫码</text>
+  </view>
+</view>
+
+<view class="guess-you-like"><text class="text-blue">猜你喜欢</text> <text>人气推荐</text></view>
+
+<view class="cards flex">
+  <view class="cu-card case">
+    <view class="cu-item shadow">
+      <view class="image">
+        <image src="../../assets/images/0.jpg" mode="widthFix"></image>
+        <view class="cu-tag bg-red">热门</view>
+        <view class="cu-bar bg-shadeBottom">
+          <text class="text-cut">
+            <text class="cuIcon-location lg"></text> 叙利亚首都30km以内
+          </text>
+        </view>
+      </view>
+      <view>
+        <view class="cu-item">
+          <view class="content">
+            <view class="text-content">
+              叙利亚首都1室32厅 精品
+            </view>
+            <view class="text-gray text-content text-df">
+              152㎡ | 1室32厅 | 朝西
+            </view>
+            <view><view class="cu-tag bg-blue">整租</view><view class="cu-tag bg-gray">无厕所</view></view>
+            <view class="text-blue text-content text-lg price">
+              ￥2333 <text class="text-sm">/ 月</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="cu-card case">
+    <view class="cu-item shadow">
+      <view class="image">
+        <image src="../../assets/images/0.jpg" mode="widthFix"></image>
+        <view class="cu-tag bg-red">热门</view>
+        <view class="cu-bar bg-shadeBottom">
+          <text class="text-cut">
+            <text class="cuIcon-location lg"></text> 叙利亚首都30km以内
+          </text>
+        </view>
+      </view>
+      <view>
+        <view class="cu-item">
+          <view class="content">
+            <view class="text-content">
+              叙利亚首都1室32厅 精品
+            </view>
+            <view class="text-gray text-content text-df">
+              152㎡ | 1室32厅 | 朝西
+            </view>
+            <view><view class="cu-tag bg-blue">整租</view><view class="cu-tag bg-gray">无厕所</view></view>
+            <view class="text-blue text-content text-lg price">
+              ￥2333 <text class="text-sm">/ 月</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- <view class="fuck" style="background-color: white;">
+  <text class="cuIcon-home lg"></text>
+</view> -->

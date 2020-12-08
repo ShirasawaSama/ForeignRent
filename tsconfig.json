@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "dist",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "typeRoots": ["./node_modules/@types", "./node_modules/miniprogram-api-typings"],
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules"
+  ]
+}

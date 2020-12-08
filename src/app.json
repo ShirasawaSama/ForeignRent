@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/renting/index",
+    "pages/profile/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "异居 ForeignRent",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#0081ff",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/icons/home.png",
+        "selectedIconPath": "assets/icons/home-active.png"
+      }, {
+        "pagePath": "pages/renting/index",
+        "text": "找房",
+        "iconPath": "assets/icons/renting.png",
+        "selectedIconPath": "assets/icons/renting-active.png"
+      }, {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "assets/icons/profile.png",
+        "selectedIconPath": "assets/icons/profile-active.png"
+      }
+    ]
+  }
+}

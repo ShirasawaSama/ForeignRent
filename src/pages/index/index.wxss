@@ -1,0 +1,63 @@
+page {
+  background-color: #f7f7f7;
+}
+
+swiper image {
+  width: 100%;
+  height: 100%;
+}
+
+.buttons {
+  display: flex;
+  padding: 16px 30px;
+}
+
+.buttons > view {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons button {
+  font-weight: 100 !important;
+  font-size: 24px !important;
+  padding: 20px !important;
+}
+
+.buttons .title {
+  display: block;
+  font-size: 24rpx;
+  margin-top: 8rpx;
+}
+
+.guess-you-like {
+  font-size: 36rpx;
+  text-align: center;
+}
+
+.guess-you-like text:first-child {
+  font-size: 40rpx;
+  font-weight: bold;
+  margin-right: 80rpx;
+}
+
+.guess-you-like text:nth-child(2) {
+  font-size: 36rpx;
+}
+
+.cards {
+  padding: 0 6px;
+}
+
+.cards .content {
+  padding: 8px;
+}
+
+.cards .cu-card {
+  width: 50%;
+}
+
+.cards .price {
+  margin-top: 6px;
+  font-weight: bold;
+}
