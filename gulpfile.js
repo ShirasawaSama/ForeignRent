@@ -9,7 +9,7 @@ const typescript = () => gulp.src('src/**/*.ts')
 const copy = () => gulp.src(['src/**/*', '!src/**/*.ts'])
   .pipe(gulp.dest('dist'))
 
-const build = () => gulp.parallel(typescript, copy)
+const build = gulp.parallel(typescript, copy)
 
 exports.default = build
 exports.watch = () => {

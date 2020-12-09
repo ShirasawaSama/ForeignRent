@@ -8,9 +8,7 @@
   "libVersion": "2.13.1",
   "projectname": "ForeignRent",
   "scripts": {
-    "beforeCompile": "npm run tsc",
-    "beforePreview": "npm run tsc",
-    "beforeUpload": "npm run upload"
+    "beforeUpload": "npm run build"
   },
   "setting": {
     "urlCheck": true,
