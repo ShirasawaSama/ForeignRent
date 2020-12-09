@@ -1,0 +1,109 @@
+<swiper indicator-dots="true" autoplay="true" circular="true">
+  <swiper-item><image src="../../assets/images/0.jpg" /></swiper-item>
+  <swiper-item><image src="../../assets/images/0.jpg" /></swiper-item>
+  <swiper-item><image src="../../assets/images/0.jpg" /></swiper-item>
+  <swiper-item><image src="../../assets/images/0.jpg" /></swiper-item>
+  <swiper-item><image src="../../assets/images/0.jpg" /></swiper-item>
+</swiper>
+
+<view class="container2">
+  <view class="details">
+    <view class="text-content text-xl">
+      叙利亚首都1室32厅 精品
+    </view>
+    <view><view class="cu-tag bg-blue">整租</view><view class="cu-tag bg-gray">无厕所</view></view>
+    <view class="text-gray text-content text-df tags2">
+      152㎡ | 1室32厅 | 朝西
+    </view>
+    <view class="flex">
+      <view class="flex-sub">
+        <text class="text-gray item-head">电梯</text>有
+      </view>
+      <view class="flex-sub">
+        <text class="text-gray item-head">年代</text>2077年建成
+      </view>
+    </view>
+    <view class="flex">
+      <view class="flex-sub">
+        <text class="text-gray item-head">供暖</text>集体供暖
+      </view>
+      <view class="flex-sub">
+        <text class="text-gray item-head">绿化</text>138%
+      </view>
+    </view>
+    <view class="flex">
+      <view class="flex-sub">
+        <text class="text-gray item-head">入住</text>90年后入住
+      </view>
+      <view class="flex-sub">
+        <text class="text-gray item-head">租期</text>可租100年
+      </view>
+    </view>
+    <view>
+      <text class="text-gray item-head">小区</text><text class="cuIcon-location lg"></text>保加利亚集体公寓
+    </view>
+  </view>
+
+  <view class="recommend text-blue">相似推荐</view>
+
+  <view class="cards flex">
+    <view class="cu-card case">
+      <view class="cu-item shadow">
+        <view class="image">
+          <image src="../../assets/images/0.jpg" mode="widthFix"></image>
+          <view class="cu-tag bg-red">热门</view>
+          <view class="cu-bar bg-shadeBottom">
+            <text class="text-cut">
+              <text class="cuIcon-location lg"></text> 叙利亚首都30km以内
+            </text>
+          </view>
+        </view>
+        <view>
+          <view class="cu-item">
+            <view class="content">
+              <view class="text-content">
+                叙利亚首都1室32厅 精品
+              </view>
+              <view class="text-gray text-content text-df">
+                152㎡ | 1室32厅 | 朝西
+              </view>
+              <view><view class="cu-tag bg-blue">整租</view><view class="cu-tag bg-gray">无厕所</view></view>
+              <view class="text-blue text-content text-lg price">
+                ￥2333 <text class="text-sm">/ 月</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="cu-card case">
+      <view class="cu-item shadow">
+        <view class="image">
+          <image src="../../assets/images/0.jpg" mode="widthFix"></image>
+          <view class="cu-tag bg-red">热门</view>
+          <view class="cu-bar bg-shadeBottom">
+            <text class="text-cut">
+              <text class="cuIcon-location lg"></text> 叙利亚首都30km以内
+            </text>
+          </view>
+        </view>
+        <view>
+          <view class="cu-item">
+            <view class="content">
+              <view class="text-content">
+                叙利亚首都1室32厅 精品
+              </view>
+              <view class="text-gray text-content text-df">
+                152㎡ | 1室32厅 | 朝西
+              </view>
+              <view><view class="cu-tag bg-blue">整租</view><view class="cu-tag bg-gray">无厕所</view></view>
+              <view class="text-blue text-content text-lg price">
+                ￥2333 <text class="text-sm">/ 月</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -17,7 +17,7 @@
     <button class="cu-btn bg-gradual-blue icon lg shadow">
       <text class="cuIcon-taxi lg"></text>
     </button>
-    <text class="title">快捷打车</text>
+    <text class="title">便捷打车</text>
   </view>
   <view>
     <button class="cu-btn bg-gradual-blue icon lg shadow">
@@ -36,7 +36,7 @@
 <view class="guess-you-like"><text class="text-blue">猜你喜欢</text> <text>人气推荐</text></view>
 
 <view class="cards flex">
-  <view class="cu-card case">
+  <view class="cu-card case" bindtap="onTap">
     <view class="cu-item shadow">
       <view class="image">
         <image src="../../assets/images/0.jpg" mode="widthFix"></image>
@@ -65,7 +65,7 @@
       </view>
     </view>
   </view>
-  <view class="cu-card case">
+  <view class="cu-card case" bindtap="onTap">
     <view class="cu-item shadow">
       <view class="image">
         <image src="../../assets/images/0.jpg" mode="widthFix"></image>
@@ -95,7 +95,3 @@
     </view>
   </view>
 </view>
-
-<!-- <view class="fuck" style="background-color: white;">
-  <text class="cuIcon-home lg"></text>
-</view> -->

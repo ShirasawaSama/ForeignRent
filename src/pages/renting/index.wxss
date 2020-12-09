@@ -1,0 +1,56 @@
+page {
+  background-color: #FFF;
+}
+
+.bars {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.actions {
+  min-height: 36px !important;
+}
+
+.actions .cuIcon-triangledownfill {
+  margin: 0 !important;
+  flex-basis: 0 !important;
+}
+
+.actions .action {
+  font-size: 30rpx !important;
+  padding-right: 7px !important;
+  display: flex !important;
+}
+
+.actions .action + .action {
+  border-left: 2rpx solid #eee;
+}
+
+.cards {
+  margin-top: 85px;
+}
+
+.cards image {
+  border-radius: 3px;
+  width: 110px;
+  height: 110px;
+  margin-right: 10px;
+}
+
+.cards .content {
+  display: flex;
+  padding: 10px 10px 0;
+  align-items: center;
+}
+
+.cards .title {
+  font-size: 34rpx;
+}
+
+.cards .price {
+  margin-top: 6px;
+  font-weight: bold;
+  font-size: 38rpx;
+}

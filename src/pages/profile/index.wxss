@@ -1,0 +1,21 @@
+.profile {
+  padding: 30px 0 30px 40px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.profile button {
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.profile .info {
+  margin-left: 20px;
+  font-size: 38rpx;
+}

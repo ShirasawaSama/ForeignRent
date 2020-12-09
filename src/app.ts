@@ -1,8 +1,7 @@
-import * as wxp from 'weapp-api-promise'
-
-App<IAppOption>({
+App({
   globalData: {
   },
   onLaunch () {
+    // wx.switchTab({ url: '/pages/renting/index' })
   }
 })

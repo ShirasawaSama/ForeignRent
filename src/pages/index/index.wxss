@@ -46,7 +46,7 @@ swiper image {
 }
 
 .cards {
-  padding: 0 6px;
+  padding: 16px 12px;
 }
 
 .cards .content {
@@ -60,4 +60,12 @@ swiper image {
 .cards .price {
   margin-top: 6px;
   font-weight: bold;
+}
+
+.cu-card > .cu-item {
+  margin: 0 !important;
+}
+
+.cards > view:nth-of-type(odd) {
+  margin-right: 10px;
 }

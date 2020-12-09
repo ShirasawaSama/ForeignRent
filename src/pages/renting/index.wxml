@@ -1,0 +1,50 @@
+<view class="bars">
+  <view class="cu-bar bg-blue search">
+    <view class="search-form radius">
+      <text class="cuIcon-search"></text>
+      <input type="text" placeholder="搜索" confirm-type="search"></input>
+    </view>
+    <view class="action">
+      <text>阿尔吉斯斯坦</text>
+      <text class="cuIcon-triangledownfill"></text>
+    </view>
+  </view>
+
+  <view class="cu-bar bg-white tabbar border actions">
+    <view class="action">
+      <text class="cuIcon-triangledownfill"></text>
+      <text>周边</text>
+    </view>
+    <view class="action">
+      <text class="cuIcon-triangledownfill"></text>
+      <text>单租</text>
+    </view>
+    <view class="action">
+      <text class="cuIcon-triangledownfill"></text>
+      <text>租金</text>
+    </view>
+    <view class="action">
+      <text class="cuIcon-triangledownfill"></text>
+      <text>筛选</text>
+    </view>
+  </view>
+</view>
+
+<view class="cards">
+  <view wx:for="{{rooms}}" class="cu-item" wx:key="time">
+    <view class="content">
+      <image src="../../assets/images/{{item.image}}" mode="aspectFill"></image>
+      <view class="desc">
+        <view class="text-content title">{{item.title}}</view>
+        <view class="text-content text-df"><text class="cuIcon-location lg"></text> {{item.location}}</view>
+        <view class="text-gray text-content text-df">{{item.subtitle}}</view>
+        <view class="cu-item tags">
+          <view wx:for="{{item.tags}}" wx:for-item="tag" wx:key="*this" class="cu-tag bg-{{ tag === '整租' ? 'blue' : 'gray' }}">{{tag}}</view>
+        </view>
+        <view class="text-blue text-content text-lg price">
+          ￥{{item.price}} <text class="text-sm">/ 月</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
